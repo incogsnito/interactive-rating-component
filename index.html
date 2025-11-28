@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main class="rating__component">
-    <div>
-      <div> <img src="./interactive-rating-component-main/images/icon-star.svg" alt=""></div>
-      <h1>How did we do?</h1>
-      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="rating__component">
       <div>
-        <ul>
+        <div class="star">
+          <img
+            class="star__img"
+            src="./interactive-rating-component-main/images/icon-star.svg"
+            alt=""
+          />
+        </div>
+        <h1>How did we do?</h1>
+        <p class="text">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+
+        <ul class="rating">
           <li class="rating__btn">1</li>
           <li class="rating__btn">2</li>
           <li class="rating__btn">3</li>
           <li class="rating__btn">4</li>
           <li class="rating__btn">5</li>
         </ul>
-        <a>Submit</a>
+        <a class="submit"href="#">Submit</a>
       </div>
-    </div>
-  </main>
-  <script src-="index.js"></script>
-</body>
-
+    </main>
+    <script src-="index.js"></script>
+  </body>
 </html>
