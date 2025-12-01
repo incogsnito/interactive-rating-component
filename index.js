@@ -8,6 +8,19 @@ Undefined, no value. NULL, nothing. Boolean, true or false. String, text. Symbol
 
 var myName = "Samad";
 
-myName = 8
+var a;
+console.log(a);
 
-console.log(myName)
+myName = 8;
+
+console.log(myName);
+
+var myStr = "I am a \" double \" ";
+
+console.log(myStr);
+
+
+var firstName = "Samad";
+var firstLetterOfName = firstName[0];
+
+console.log(firstLetterOfName);
