@@ -4,12 +4,14 @@ const rating = document.querySelectorAll("li");
 
 const submit = document.querySelector("button");
 
-const box = document.querySelector(".box");
+const box = document.querySelector(".thank-you");
+
 
 submit.addEventListener("click", () => {
-  //Makes white box display for now.
   ratingComponent.style.display = "none";
-  box.style.display = "block";
+  box.style.display = "flex";
+  box.style.flexDirection = "column";
+  box.style.gap = "3em";
 
 });
 
@@ -20,6 +22,4 @@ rating.forEach((item) => {
 });
 
 
-for(let i = 0; i <= 4; i++){
-  console.log("Hello")
-}
+
