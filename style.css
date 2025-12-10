@@ -77,11 +77,14 @@ a{
 .submit{
   background:hsl(25, 97%, 53%);
   text-align: center;
-  padding-block: 0.8em;
+  padding-block: 1em;
   display: block;
   border-radius: 2em;
   text-transform: uppercase;
   transition: 0.2s ease-in-out;
+  min-width: 100%;
+  border: none;
+
 }
 
 .submit:hover{
@@ -98,4 +101,6 @@ a{
   width: 400px;
   height: 400px;
   display: none;
+  opacity:0;
+  transition: opacity .3s ease;
 }
